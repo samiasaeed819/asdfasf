@@ -1,0 +1,152 @@
+body {
+    background-color: rgb(127, 210, 210) ;
+
+}
+  /* Top left text */
+  .top-left {
+    position: absolute;
+    top: 160px;
+    left: 20px;
+    background-color: rgb(127, 210, 210);
+    margin-left: 250px;
+  }
+
+  div.menu ul {
+    /*Takes away the oints for the bullter list */
+list-style-type: none;
+    /*Gets rid of spacing */
+margin: 10px;
+margin-left: 20px;
+margin-right: 20px;
+padding: 16;
+overflow: hidden;
+background-color:rgb(54, 174, 174);
+border-radius: 20px;
+
+}
+
+div.menu ul li {
+float: left;
+}
+
+div.menu ul li a {
+display:block;
+color: rgb(2, 64, 64);
+font-style: italic;
+font-size: large;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+div.menu ul li a:hover {
+    background-color: rgb(127, 210, 210);
+}
+
+  body {
+    font-family: sans-serif;
+  }
+  
+  button:hover {
+    cursor: pointer;
+    background-color: #4be7c0;
+  }
+  
+  ul {
+    list-style-type: none; /* get rid of bullet points on side of list items */
+  }
+  
+  /* common style ends */
+  
+  /* container */
+  .container {
+    min-width: 700px;
+    display: block;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: 10px;
+
+  }
+  
+  h1 {
+    color: rgb(2, 64, 64);
+    font-size: 3rem;
+  }
+  
+  /* todo-form */
+  
+  .todo-form {
+    margin: 40px 0px;
+  }
+  
+  .todo-input {
+    width: 250px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 1rem;
+  }
+  
+  .add-button {
+    background-color: rgb(2, 64, 64);
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 7px;
+    font-size: 1.2rem;
+  }
+  
+  /* todo-form style ends */
+  
+  /* todo-items */
+  .todo-items {
+    min-width: 350px;
+  }
+  
+  /* each li with class="item" */
+  .item {
+    background-color: #fff;
+    padding: 10px;
+    font-size: 1.1rem;
+  }
+  
+  .item:first-child {
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+  }
+  
+  .item:last-child {
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+  }
+  
+  /* item style end */
+  
+  .checkbox {
+    margin-right: 10px;
+  }
+  
+  .delete-button {
+    float: right;
+    background-color: rgb(2, 64, 64);
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    padding: 2px 5px;
+    margin-left: 10px;
+    font-size: 1.1rem;
+    font-weight: 550;
+  }
+  
+  /* applied when the todo item is checked */
+  .checked { 
+    text-decoration: line-through;
+  }
+  
+  /* todo-items style ends */
+  
+  /* container style ends */
